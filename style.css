@@ -1,0 +1,14 @@
+body {
+    background-image: url("img/whiteflowers.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top right;
+    padding: 3px;
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 4px sandybrown;
+}
