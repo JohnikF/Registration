@@ -17,6 +17,24 @@ h1 {
     text-shadow: 1px 1px 4px sandybrown;
 }
 
+hr {
+    width: 50%;
+    height: 4px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+}
+
+p {
+    width: 50%;
+    padding: 13px;
+    font-size: 20px;
+    text-align: center;
+    margin: 23px auto auto;
+    line-height: 30px;
+}
+
 form {
     background-color: sandybrown;
     opacity: 0.65;
@@ -30,7 +48,6 @@ form {
     text-align: center;
 
 }
-
 .sign-in, .sign-up {
     color: black;
     text-decoration: none;
@@ -45,4 +62,46 @@ form {
     color: white;
     border-bottom: 2px solid darkgreen;
 
+}
+
+.fields p {
+    color: darkgreen;
+    text-shadow: 3px 5px 2px lightcoral;
+}
+
+.fields input {
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: none;
+    opacity: 0.9;
+    outline: none;
+    color: darkgreen;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper p {
+    display: inline;
+    padding: 5px;
+}
+
+.wrapper input {
+    width: auto;
+}
+
+.about-child {
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    opacity: 0.9;
+    color: darkgreen;
+    background-color: #ffffff;
 }
